@@ -1,0 +1,207 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.image-container {
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.image-container img {
+    display: inline-block;
+    max-width: 50%; 
+    height: auto; 
+    animation: scrollImages 10s linear infinite; 
+    margin-right: 20px;
+}
+
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+h1 {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+    color: #FFD700;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+
+.logo {
+    height: 200px;
+    position: relative;
+    bottom: 240px;
+    float: right;
+    margin-right: 350px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6A6C6E;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#recherche {
+    position: relative;
+    left: 40%;
+}
+
+nav {
+    background-color: #6A6C6E;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 34%;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 20px;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 100px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+section {
+    padding: 50px;
+}
+
+.hero-image {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+h2 {
+    color: #FFD700;
+    text-align: center;
+}
+
+.produit {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.Nous {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+p {
+    color: azure;
+}
+
+.contact {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+#address {
+    position: relative;
+    left: -20px;
+}
+
+#titreP {
+    position: relative;
+    bottom: -50px;
+}
+
+#pub {
+    max-width: 50%;
+    position: relative;
+    left: 25%;
+    top: 100px;
+}
+
+.phraseP {
+    position: relative;
+    left: 39%;
+    top: 70px;
+}
